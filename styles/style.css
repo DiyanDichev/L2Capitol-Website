@@ -1,0 +1,110 @@
+@font-face {
+   font-family: trajan Pro;
+   src: url(../font/TrajanPro-Regular.otf);
+}
+
+* { margin:0; padding:0; } 
+
+body { background:#110c02 url(../imgs/bg01.jpg) no-repeat top center; }
+
+#container { width:1000px; height:1000px; margin:0 auto; } 
+
+
+.menu { background:url(../imgs/bg_menu.jpg) no-repeat -5px -10px; width:960px; height:50px; margin-top:350px; list-style:none; float:left; } 
+.menu ul#nav li { font-family:"trajan Pro"; font-size:14px; float:left; margin-left:0px; padding:18px 19px; list-style:none; position:relative; }
+.menu ul#nav li a {color:#000000; text-decoration:none;} 
+.menu ul#nav li:hover { background:url(../imgs/bg_menu_hover.jpg) repeat-x; }
+.menu ul#nav li.home:hover {background:url(../imgs/bg_menu_hover.jpg) repeat-x; border-radius:2px 0 0 7px;}
+.menu ul#nav li.last:hover {background:url(../imgs/bg_menu_hover.jpg) repeat-x; border-radius:0 2px 7px 0; margin-left:0.8px;}
+.menu ul#nav li ul#subnav { display:none; position:absolute; top:50px; left:0; background:#963; width:160px;  height:50px;  }
+.menu ul#nav li:hover ul#subnav { display:block; position:absolute; top:50px; left:0; background:url(../imgs/menu_drop.jpg) repeat; height:auto; width:210px; border:solid 1px #ccc; border-radius:0 0 5px 5px; border-bottom:1px solid #CCC; opacity:1;}
+.menu ul#nav li:hover ul#subnav li  {background:url(../imgs/dropdown_bottom.png) no-repeat; height:32px; width:201px; padding:0px 20px; margin-top:3px; margin-left:4px; margin-bottom:4px; opacity:0.8;}
+.menu ul#nav li:hover ul#subnav li:hover  {background:url(../imgs/dropdown_bottom.png) no-repeat; height:32px; width:201px; padding:0px 20px; margin-top:3px; margin-left:4px; margin-bottom:4px; opacity:1; }
+.menu ul#nav li:hover ul#subnav li a  {font-size:12px; line-height:300%;}
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0){
+.menu { background:url(../imgs/bg_menu.jpg) no-repeat -5px -10px; width:960px; height:50px; margin-top:350px; list-style:none; float:left; } 
+.menu ul#nav li { font-family:"trajan Pro"; font-size:14px; float:left; margin-left:0px; padding:18px 19px; list-style:none; position:relative; }
+.menu ul#nav li a {color:#000000; text-decoration:none;} 
+.menu ul#nav li:hover { background:url(../imgs/bg_menu_hover.jpg) repeat-x;}
+.menu ul#nav li.home:hover {background:url(../imgs/bg_menu_hover.jpg) repeat-x; border-radius:2px 0 0 7px;}
+.menu ul#nav li.last:hover {background:url(../imgs/bg_menu_hover.jpg) repeat-x; border-radius:0 2px 7px 0; margin-left:0.8px;}
+.menu ul#nav li ul#subnav { display:none; position:absolute; top:50px; left:0; background:#963; width:160px;  height:50px;  }
+.menu ul#nav li:hover ul#subnav { display:block; position:absolute; top:50px; left:0; background:url(../imgs/menu_drop.jpg) repeat; height:auto; width:210px; border:solid 1px #ccc; border-radius:0 0 5px 5px; border-bottom:1px solid #CCC; opacity:1;}
+.menu ul#nav li:hover ul#subnav li  {background:url(../imgs/dropdown_bottom.png) no-repeat; height:32px; width:201px; padding:0px 20px; margin-top:3px; margin-left:4px; margin-bottom:4px; opacity:0.8;}
+.menu ul#nav li:hover ul#subnav li:hover  {background:url(../imgs/dropdown_bottom.png) no-repeat; height:32px; width:201px; padding:0px 20px; margin-top:3px; margin-left:4px; margin-bottom:4px; opacity:1; }
+.menu ul#nav li:hover ul#subnav li a  {font-size:12px; line-height:300%;}
+} 
+
+
+.sidebar-left { width:208px; float:left; height:auto; } 
+.sidebar-right { width:208px; float:right; height:auto; margin-right:40px; } 
+.bar_box { background:url(../imgs/bar_box.jpg) no-repeat -6px -0px; width:208px; height:45px; } 
+.pt_box { background:url(../imgs/pt_box.jpg) no-repeat -6px 0; width:208px; height:153px; } 
+.bar_box2 { background:url(../imgs/bar_box.jpg) no-repeat -6px -0px; width:208px; height:45px; } 
+.pt_box2 { background:url(../imgs/pt_box.jpg) no-repeat -6px 0; width:208px; height:153px; } 
+.bar_box3 { background:url(../imgs/bar_box.jpg) no-repeat -6px -0px; width:208px; height:45px; } 
+.pt_box3 { background:url(../imgs/pt_box.jpg) no-repeat -7px 0; background-size:238px 250px; width:208px; height:250px; } 
+.bar_box4 { background:url(../imgs/bar_box.jpg) no-repeat -6px -0px; width:208px; height:45px; } 
+.pt_box4 { background:url(../imgs/pt_box.jpg) no-repeat -7px 0; background-size:238px 157px; width:208px; height:157px; } 
+
+.style-1 { color:#120a00; font-size:12px; font-family:"trajan Pro"; padding:0px 54px; line-height:420%; float:left; }  
+.style-2 { color:#120a00; font-size:11px; font-family:"trajan Pro"; padding:0px 30px; line-height:240%; }
+
+.panel-user {width:208px; padding:13px 0;}
+.style-user {background:url(../imgs/dropdown_bottom.png) no-repeat; height:32px; width:201px; background-size:180px; padding:4px 35px; margin-left:15px; clear:both;}
+.style-user a { text-decoration:none; font-family:"trajan Pro"; font-size:11px; color:#120a00; line-height:200%; opacity:0.8;}
+.style-user a:hover { text-decoration:none; font-family:"trajan Pro"; font-size:11px; color:#120a00; line-height:200%; opacity:1;}
+
+
+.style-3 { color:#120a00; font-size:11px; font-family:"trajan Pro"; padding:0px 30px; line-height:180%; float:left;  }
+.style-4 { color:#120a00; font-size:11px; font-family:"trajan Pro"; padding:0px 1px; float:right; line-height:180%; font-weight:bold; margin-right:15px;  }
+.style-5 { color:#120a00; font-size:10px; font-family:"trajan Pro"; line-height:160%; font-weight:bold; text-align:center;  }
+.style-6 { color:#15110a; font-size:10px; font-family:"trajan Pro"; line-height:420%; font-weight:bold; text-align:center;  }
+.style-6 a { text-decoration:none; color:#15110a; }
+.style-6 a:hover { text-decoration:underline; color:#794a05; }
+.style-7 { color:#15110a; font-size:10px; font-family:"trajan Pro"; line-height:220%; font-weight:bold; text-align:center; clear:both;  }
+.style-7 a { text-decoration:none; color:#15110a; }
+.style-7 a:hover { text-decoration:underline; color:#794a05; }
+
+.align-quads { width:185px; height:auto; clear:both; float:left; margin-left:12px; padding:0px 0; } 
+.quad-gallery-1 { width:52px; height:52px; background:#ccc url(../imgs/gallery/photo2.jpg) no-repeat; clear:both; float:left; border: 1px solid #522906;}
+.quad-gallery-1:hover { border: 1px solid #974a09; cursor:pointer; }
+.quad-gallery-2 { width:52px; height:52px; background:#ccc url(../imgs/gallery/photo3.jpg) no-repeat; float:left; margin-left:10px; border: 1px solid #522906;}
+.quad-gallery-2:hover { border: 1px solid #974a09; cursor:pointer; }
+.quad-gallery-3 { width:52px; height:52px; background:#ccc url(../imgs/gallery/photo4.jpg) no-repeat; float:left; margin-left:10px; border: 1px solid #522906;}
+.quad-gallery-3:hover { border: 1px solid #974a09; cursor:pointer;  }
+.quad-gallery-4 { width:52px; height:52px; background:#ccc url(../imgs/gallery/photo5.jpg) no-repeat; clear:both; float:left; border: 1px solid #522906; margin-top:10px;}
+.quad-gallery-4:hover { border: 1px solid #974a09; margin-top:10px; cursor:pointer; }
+.quad-gallery-5 { width:52px; height:52px; background:#ccc url(../imgs/gallery/photo6.jpg) no-repeat; float:left; margin-left:10px; border: 1px solid #522906; margin-top:10px;}
+.quad-gallery-5:hover { border: 1px solid #974a09; margin-top:10px; cursor:pointer;  }
+.quad-gallery-6 { width:52px; height:52px; background:#ccc url(../imgs/gallery/photo1.jpg) no-repeat; float:left; margin-left:10px; border: 1px solid #522906; margin-top:10px;}
+.quad-gallery-6:hover { border: 1px solid #974a09; margin-top:10px; cursor:pointer; }
+
+
+.pos { padding:0px 6px; }
+.char {  padding:0px 2px; } 
+.quant { margin-right:10px; float:right; } 
+.top10 { font-family:"trajan Pro"; font-size:11px; color:#000; clear:both; padding:4px 10px; text-align:left; background:url(../imgs/line.png) no-repeat bottom center; font-weight:bold; opacity:0.8;}
+
+/*VOTES*/
+
+.top1:hover { cursor:pointer; width:194px; height:44px; border-radius:5px; }
+
+.content { width:481px; height:auto; float:left; margin-top:10px; margin-left:30px}
+.top-content { background:url(../imgs/top-middle.png) no-repeat; width:481px; height:46px; float:left; } 
+.middle-content { background:url(../imgs/middle.jpg) repeat-y; width:449px; height:auto; float:left; margin-left:16px; }
+.bottom-content {background:url(../imgs/bottom-middle.png) no-repeat; width:481px; height:53px; float:left; clear:both; } 
+
+.text-content { font-size:12px; font-family:"trajan Pro"; color:black; text-align:center; width:400px; margin:0 auto; margin-bottom:10px; margin-top:10px; color:#120a00;  }
+
+.title-page { font-family:"trajan Pro"; font-size:13px; color:#120a00; padding:0 200px; line-height:340%; }
+
+.title-text { color:#4c310d; }
+
+.footer {  height:275px; clear:both; color:#936b1b; font-family:Arial, Helvetica, sans-serif; } 
+.text-footer { font-size:8px; text-align:center; padding-top:190px; text-transform:uppercase; } 
+
+#linkfooter { color:#ffe400; text-decoration:none; font-size:9px; opacity:0.80; }
+#linkfooter:hover { opacity:1; }  
